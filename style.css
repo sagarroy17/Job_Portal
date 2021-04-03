@@ -1,0 +1,36 @@
+body{
+ margin: 0;
+ padding:0;
+ 
+}
+.type{
+    width:100px;
+    position: absolute;
+    top:20%;
+    left:27%;
+    text-transform: uppercase;
+    font-family: cursive;
+    transform:translate(-50%,-50%);
+
+}
+
+h1{
+  color:blue;
+  font-size: 30px;
+  width:99ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type-ani 20s linear ;
+
+}
+@keyframes type-ani{
+ 0%{
+     width:0ch;
+ }
+ 100%{
+
+     width: 99ch;
+ }
+
+
+}
